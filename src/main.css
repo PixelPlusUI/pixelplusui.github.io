@@ -1506,25 +1506,29 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 }
 
 .css-selector:hover {
-    background: linear-gradient(270deg, #ff00f1, #ff6100);
+    background: linear-gradient(270deg, #ff0000, #ffd100);
     background-size: 400% 400%;
-
-    -webkit-animation: gradient -8000s ease infinite;
-    -moz-animation: gradient 0s ease infinite;
-    animation: gradient 0s ease infinite;
+    -webkit-animation: grad 30s ease infinite;
+    -moz-animation: grad 30s ease infinite;
+    -o-animation: grad 30s ease infinite;
+    animation: grad 30s ease infinite;
 }
-
-@-webkit-keyframes gradient {
+@-webkit-keyframes grad {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@-moz-keyframes gradient {
+@-moz-keyframes grad {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-@keyframes gradient {
+@-o-keyframes grad {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes grad {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
