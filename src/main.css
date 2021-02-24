@@ -1508,10 +1508,10 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 .css-selector:hover {
     background: linear-gradient(270deg, #ff0000, #ffd100);
     background-size: 400% 400%;
-    -webkit-animation: grad 30s ease infinite;
-    -moz-animation: grad 30s ease infinite;
-    -o-animation: grad 30s ease infinite;
-    animation: grad 30s ease infinite;
+    -webkit-animation: grad 6s ease infinite;
+    -moz-animation: grad 6s ease infinite;
+    -o-animation: grad 6s ease infinite;
+    animation: grad 6s ease infinite;
 }
 @-webkit-keyframes grad {
     0%{background-position:0% 50%}
